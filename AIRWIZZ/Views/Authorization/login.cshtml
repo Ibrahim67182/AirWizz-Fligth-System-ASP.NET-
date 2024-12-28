@@ -1,0 +1,61 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Login";
+    // Get the TempData messages
+    var successMessage = TempData["SuccessMessage"];
+    var errorMessage = TempData["ErrorMessage"];
+}
+
+
+<body class="loginBody">
+
+    <div style="padding-top:10%; width:60%; padding-left:38%;">
+        @if (successMessage != null)
+        {
+            <div class="alert alert-success" >
+                @successMessage
+            </div>
+        }
+        @if (errorMessage != null)
+        {
+            <div class="alert alert-success">
+                @errorMessage
+            </div>
+        }
+    </div>
+   
+
+
+    <section style="padding-top:15%; padding-left:20%;">
+
+
+        <form id="log" class="form1" method="post" action="LoginUser">
+
+            <h3 style="color: #ffffff;">Login Here</h3>
+
+            <label for="email" style="color: #ffffff;">email</label>
+            <input type="email" id="email" placeholder="Email" name="email" required>
+
+            <label for="password" style="color: #ffffff;">Password</label>
+            <input type="password" id="password" placeholder="Password" name="password" requirted>
+            
+            <div style="padding-top:20px;">
+                <button type="submit">Log In</button>
+            </div>
+            
+
+            <div style="padding-bottom:20px; padding-top:20px; ">
+                <label style="color: #ffffff;">Not Registered yet?</label>
+                <a class="signupLink" href="@Url.Action("Signup","Authorization")">Signup</a>
+            </div>
+
+
+        </form>
+
+    </section>
+   
+    
+
+</body>

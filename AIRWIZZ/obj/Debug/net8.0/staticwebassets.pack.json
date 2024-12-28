@@ -1,0 +1,549 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AIRWIZZ.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AIRWIZZ.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\css\\bootsnav.css",
+      "PackagePath": "staticwebassets\\css\\bootsnav.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\css\\linearicons.css",
+      "PackagePath": "staticwebassets\\css\\linearicons.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\Creators\\Ibrahim.jpg",
+      "PackagePath": "staticwebassets\\images\\Creators\\Ibrahim.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\Creators\\Zain.jpg",
+      "PackagePath": "staticwebassets\\images\\Creators\\Zain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\Creators\\anas.jpeg",
+      "PackagePath": "staticwebassets\\images\\Creators\\anas.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\Creators\\zain2.jpg",
+      "PackagePath": "staticwebassets\\images\\Creators\\zain2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\FlightsApi\\blackmarker.png",
+      "PackagePath": "staticwebassets\\images\\FlightsApi\\blackmarker.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\FlightsApi\\redmarker.png",
+      "PackagePath": "staticwebassets\\images\\FlightsApi\\redmarker.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\ab320.jpg",
+      "PackagePath": "staticwebassets\\images\\ab320.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\b747.jpeg",
+      "PackagePath": "staticwebassets\\images\\b747.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\brand\\Alaska-Airlines-Logo.png",
+      "PackagePath": "staticwebassets\\images\\brand\\Alaska-Airlines-Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\brand\\British_Airways-Logo.wine.png",
+      "PackagePath": "staticwebassets\\images\\brand\\British_Airways-Logo.wine.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\brand\\Qatar_Airlines_Or.png",
+      "PackagePath": "staticwebassets\\images\\brand\\Qatar_Airlines_Or.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\brand\\airblue.png",
+      "PackagePath": "staticwebassets\\images\\brand\\airblue.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\brand\\br2.png",
+      "PackagePath": "staticwebassets\\images\\brand\\br2.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\brand\\br5.png",
+      "PackagePath": "staticwebassets\\images\\brand\\br5.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\brand\\fly-emirates-logo-black-and-white.png",
+      "PackagePath": "staticwebassets\\images\\brand\\fly-emirates-logo-black-and-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\brand\\flying-turkish-airlines-logo-26.png",
+      "PackagePath": "staticwebassets\\images\\brand\\flying-turkish-airlines-logo-26.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\cs.jpg",
+      "PackagePath": "staticwebassets\\images\\cs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\gf650.jpg",
+      "PackagePath": "staticwebassets\\images\\gf650.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\log1.jpg",
+      "PackagePath": "staticwebassets\\images\\log1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\log2.jpg",
+      "PackagePath": "staticwebassets\\images\\log2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\new-cars-model\\ba.png",
+      "PackagePath": "staticwebassets\\images\\new-cars-model\\ba.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\new-cars-model\\emirates.jpg",
+      "PackagePath": "staticwebassets\\images\\new-cars-model\\emirates.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\new-cars-model\\emirates.png",
+      "PackagePath": "staticwebassets\\images\\new-cars-model\\emirates.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\new-cars-model\\emirates2.jpg",
+      "PackagePath": "staticwebassets\\images\\new-cars-model\\emirates2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\new-cars-model\\pia.png",
+      "PackagePath": "staticwebassets\\images\\new-cars-model\\pia.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\new-cars-model\\qatar.png",
+      "PackagePath": "staticwebassets\\images\\new-cars-model\\qatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\p1.jpg",
+      "PackagePath": "staticwebassets\\images\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\p2.jpg",
+      "PackagePath": "staticwebassets\\images\\p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\p3.jpg",
+      "PackagePath": "staticwebassets\\images\\p3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\p4.jpg",
+      "PackagePath": "staticwebassets\\images\\p4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\sign.jpg",
+      "PackagePath": "staticwebassets\\images\\sign.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\welcome-hero\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\welcome-hero\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\welcome-hero\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\welcome-hero\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\images\\welcome-hero\\welcome-hero.jpg",
+      "PackagePath": "staticwebassets\\images\\welcome-hero\\welcome-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\js\\bootsnav.js",
+      "PackagePath": "staticwebassets\\js\\bootsnav.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\js\\feather.min.js",
+      "PackagePath": "staticwebassets\\js\\feather.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Shamim\\Desktop\\AIRWIZZ\\AIRWIZZ\\wwwroot\\logo\\favicon.png",
+      "PackagePath": "staticwebassets\\logo\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AIRWIZZ.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AIRWIZZ.props",
+      "PackagePath": "build\\AIRWIZZ.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AIRWIZZ.props",
+      "PackagePath": "buildMultiTargeting\\AIRWIZZ.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AIRWIZZ.props",
+      "PackagePath": "buildTransitive\\AIRWIZZ.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

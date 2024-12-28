@@ -1,0 +1,149 @@
+﻿@model AIRWIZZ.Models.BookingHistoryModel
+@using AIRWIZZ.Data.enums
+
+
+@{
+    ViewData["Title"] = "Booking History";
+}
+
+
+<body class="about-page-body">
+
+    <div style="padding-top:3%;"></div>
+    <div class="about-head2 about-header">
+        <h1 style="color:aliceblue;">Flight Booking History</h1>
+        <p style="color:aliceblue;">View all your booking!</p>
+    </div>
+
+
+    
+        <!-- About Us Section -->
+    <div style="padding-top:5%;" ></div>
+
+    @if (Model.Bookings_history_list != null && Model.Bookings_history_list.Any())
+    {
+
+        <div style="margin: 20px 5%; ">
+
+            @if (Model.Bookings_history_list != null && Model.Bookings_history_list.Any())
+            {
+                <div class="row">
+                    <div class="col-md-12 grid-margin stretch-card">
+                        <div class="card" style="background-color: #141414; color: white;">
+                            <div class="card-body">
+                                <div class="d-sm-flex align-items-center mb-4">
+                                    <h4 class="card-title mb-sm-0" style="color: white;"></h4>
+                                    <a href="#" class="text-white ml-auto mb-3 mb-sm-0">View All Bookings</a>
+                                </div>
+                                <div class="table-responsive border rounded p-1">
+                                    <table class="table" style="width:100%;">
+                                        <thead style="background-color: white; color: black;">
+                                            <tr>
+                                                <th class="font-weight-bold">#</th>
+                                                <th class="font-weight-bold">Booking ID</th>
+                                                <th class="font-weight-bold">Booking Date</th>
+                                                <th class="font-weight-bold">Total Amount</th>
+                                                
+                                                <th class="font-weight-bold">Flight Number</th>
+                                                <th class="font-weight-bold">Airline</th>
+                                                <th class="font-weight-bold">Passenger Name</th>
+                                                <th class="font-weight-bold">Seat Class</th>
+                                                <th class="font-weight-bold">Seat Number</th>
+                                                <th class="font-weight-bold">Booking Status</th>
+                                                <th class="font-weight-bold">Departure City</th>
+                                                <th class="font-weight-bold">Arrival City</th>
+                                                <th class="font-weight-bold">Departure Date - Time</th>
+                                                <th class="font-weight-bold">Arrival Date - Time</th>
+                                                <th class="font-weight-bold">Action</th>
+                                                <th class="font-weight-bold">Ticket</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody style="color: white;">
+                                            <!-- Ensures white font color for table body -->
+                                            @foreach (var booking in Model.Bookings_history_list)
+                                            {
+                                                <tr>
+                                                    <td>@(Model.Bookings_history_list.IndexOf(booking) + 1)</td>
+                                                    <td>@booking.Bookid</td>
+                                                    <td>@booking.Bookdate.ToString("yyyy-MM-dd")</td>
+                                                    <td>@booking.total_amount</td>
+                                                    <!--booking.currency_type-->
+                                                    <td>@booking.FlightNumber</td>
+                                                    <td>@booking.Airline</td>
+                                                    <td>@booking.PassengerName</td>
+                                                    <td>@booking.Seat_class_type</td>
+                                                    <td>@booking.SeatNum</td>
+                                                    <td>@booking.Booking_Status</td>
+                                                    <td>@booking.DepartureLocation</td>
+                                                    <td>@booking.DestinationLocation</td>
+                                                    <td>@booking.DepartureDateTime.ToString("yyyy-MM-dd HH:mm")</td>
+                                                    <td>@booking.ArrivalDateTime.ToString("yyyy-MM-dd HH:mm")</td>
+                                                    <td>
+                                                        @if (booking.Booking_Status == BookStatus.Cancelled)
+                                                        {
+                                                            
+                                                            <form action="@Url.Action("DeleteBooking", "Home", new { book_id = booking.Bookid })" method="post">
+                                                                <button type="submit" class="flight-book-button">Delete Booking</button>
+                                                            </form>
+                                                        }
+                                                        else
+                                                        {
+                                                            
+                                                            <form action="@Url.Action("CancelBook", "Home", new { book_id = booking.Bookid })" method="post">
+                                                                <button type="submit" class="flight-book-button">Cancel</button>
+                                                            </form>
+
+                                                     
+
+
+                                                        
+
+                                                        }
+                                                    
+                                                     </td>
+                                                     <td>
+                                                        @if (booking.Booking_Status != BookStatus.Cancelled)
+                                                        {
+                                                            <form action="@Url.Action("DownloadTicket", "Home", new { book_id = booking.Bookid })" method="post">
+                                                                <button type="submit" class="flight-book-button">Download Ticket</button>
+                                                            </form>
+                                                        }
+
+                                                     </td>
+                                                    
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+            
+                
+
+
+    }
+
+    else
+
+    {
+        <div style="padding-top:20%;">
+        </div>
+        <div class="alert alert-warning text-center" style=" height:80px;width:400px; font-size:25px;">
+            No booking history available.
+        </div>
+    }
+
+        
+    <div style="padding-bottom:5%;"></div>
+
+
+   
+</body>
+
+  
