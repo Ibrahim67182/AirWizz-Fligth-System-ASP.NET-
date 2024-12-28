@@ -1,0 +1,981 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+ul.nav {
+    display: flex;
+    flex-direction: row; /* Ensures horizontal layout */
+    list-style-type: none; /* Removes bullet points */
+}
+
+    ul.nav li {
+        margin-right: 20px; /* Adds spacing between items */
+    }
+
+
+.top {
+    display: inline-block;
+    margin-right: 10px; /* Optional spacing between elements */
+    vertical-align: middle; /* Aligns elements vertically */
+}
+
+.header-area {
+    background-color: black;
+}
+
+.navbar {
+    background-color: black;
+}
+
+    .navbar .nav > li > a {
+        color: white; /* Set the text color to white for better contrast */
+    }
+
+        .navbar .nav > li > a:hover {
+            color: #f0ad4e; /* Optional: Change color on hover (e.g., gold or any other color) */
+        }
+
+.header-area .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px; /* Add some horizontal padding */
+}
+
+.navbar-header {
+    flex: 0 1 auto; /* Ensure the brand has enough space */
+    margin-right: 10px; /* Add a small margin to the right of the brand */
+}
+
+.navbar-collapse {
+    flex: 1; /* Allow the navbar to grow and fill remaining space */
+}
+
+.navbar-nav {
+    display: flex; /* Align menu items horizontally */
+    flex-wrap: nowrap; /* Prevent wrapping to a new line */
+    justify-content: flex-end; /* Align menu to the right */
+}
+
+.navbar-nav li {
+    margin-left: 10px; /* Decrease space between menu items */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: white;
+}
+
+.navbar {
+    background-color: black; /* Ensure the top background is black */
+}
+
+.navbar-nav li a {
+    color: white; /* Menu text color */
+    font-size: 14px;
+}
+
+.navbar-nav li a:hover {
+    color: #f0ad4e; /* Optional hover effect */
+}
+
+.navbar-header {
+    width: auto; /* Allow the header to size based on its contents */
+    padding: 0; /* Remove padding from navbar-header */
+    margin: 0; /* Reset margin */
+}
+
+.navbar-brand {
+    padding: 15px 5px; /* Adjust the padding of the brand */
+}
+
+.navbar-toggle {
+    padding: 10px 5px; /* Adjust the padding of the toggle button */
+}
+
+.btn-login {
+    background-color: #f39c12; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 15px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* No underline */
+    margin-left: 15px; /* Space between menu items */
+    display: inline-block; /* Keep it inline with other items */
+    line-height: 50px; /* Center vertically in the navbar */
+}
+
+    /* Optional hover effect for the button */
+    .btn-login:hover {
+        background-color: #e67e22; /* Darker color on hover */
+        transition: background-color 0.3s; /* Smooth transition */
+    }
+    .btn-login:focus {
+        outline: none; /* Remove outline */
+        box-shadow: none; /* Remove any shadow */
+    }
+
+.loginBody {
+    background-image: url('../images/log2.jpg'); /* Path to your image */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+
+.form1 {
+    padding-top:900px;
+    height: 440px;
+    width: 380px;
+    background-color: rgba(255,255,255,0.13);
+    margin: auto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+
+    .form1 h3 {
+        text-align: center;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        margin-bottom: 20px;
+    }
+
+    /* Labels */
+    .form1 label {
+        display: block;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    /* Inputs */
+    .form1 input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        font-size: 14px;
+    }
+
+        /* Placeholder styling */
+        .form1 input::placeholder {
+            color: #bbbbbb;
+            font-style: italic;
+        }
+
+    /* Button */
+    .form1 button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: #00001a;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .form1 button:hover {
+            background-color: #330066;
+        }
+
+/* Signup link */
+a.signupLink {
+    color: aliceblue;
+}
+
+/* Hover effect for Signup link */
+a.signupLink:hover {
+   color:greenyellow;
+}
+
+
+.signupBody {
+    background-image: url('../images/sign.jpg'); /* Path to your image */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+
+
+.form2 {
+    padding-top: 900px;
+    height: 470px;
+    width: 380px;
+    background-color: rgba(255,255,255,0.13);
+    margin: auto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+
+.form2 h3 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.form2 label {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+.form2 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+    /* Placeholder styling */
+    .form2 input::placeholder {
+        color: #bbbbbb;
+        font-style: italic;
+    }
+
+/* Button */
+.form2 button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #00001a;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .form2 button:hover {
+        background-color: #330066;
+    }
+
+
+.dropmenu:hover {
+    color:darkmagenta;
+    background-color:blueviolet;
+}
+/* Styling the dropdown menu items */
+
+.history {
+    background-color: #000000;
+}
+
+.historytable {
+    background-color: #00001a;
+}
+
+/* Apply the background only to .profile-page */
+.profile-page {
+    background: linear-gradient(-45deg, #4b2c62, #1e1b26, #2d2a38, #6a3d91);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+/* Define the animation */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.admin {
+    background-color: #000000;
+}
+
+.admintable {
+    background-color: aliceblue;
+}
+
+/* Make sure body takes full height */
+/* Ensure that HTML and body both cover full height */
+/* Ensure that HTML and body both cover full height */
+html, body {
+    height: 100%;
+    margin: 0; /* Remove default margin */
+    background-color: #000000; /* Set background to black */
+}
+
+    /* Ensure the currency conversion page has a white background for the content */
+    body.currency-conversion-page {
+        background-color: #000000; /* Black background for this page */
+    }
+
+/* Ensure that the currency container is styled correctly */
+.currency-container {
+    padding-top: 5%; /* Keeps space at the top */
+    text-align: center;
+    color: #ffffff; /* Set text color to white */
+}
+
+/* Make sure the currency form layout has enough space and doesn't overflow */
+.currency-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the form elements */
+    gap: 20px;
+    width: 100%;
+}
+
+/* Grid style to arrange the currency input cards */
+.currency-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ensure responsive grid */
+    gap: 20px;
+    width: 100%;
+}
+
+/* Styling the individual currency cards */
+.currency-card {
+    background-color: #f4f4f9; /* Light background for the card */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header of each currency card */
+.currency-card-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Body of each currency card */
+.currency-card-body {
+    text-align: center;
+}
+
+/* Label and input field styling inside the cards */
+.currency-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.currency-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Styling for the submit button */
+.currency-submit-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.currency-save-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .currency-save-btn:hover {
+        background-color: #0056b3;
+    }
+
+
+
+
+/* General Styles */
+.about-page-body {
+    background-color: #141414; /* Dark background */
+    color: #fff; /* White text color */
+    font-family: Arial, sans-serif;
+    padding: 60px 0;
+}
+
+
+    .about-header h1 {
+        font-size: 5rem; /* Larger heading */
+        margin-bottom: 20px;
+        color: #1e90ff; /* Vibrant cool blue for the header */
+    }
+
+    .about-header p {
+        font-size: 2rem; /* Larger subheading */
+        color: #00bfff; /* Bright cool blue */
+    }
+
+/* About Container */
+.about-container {
+    margin: 50px 10%;
+    padding: 60px;
+    background-color: #222; /* Slightly lighter dark background */
+    border-radius: 15px;
+}
+
+/* About Section */
+.about-section {
+    margin-bottom: 80px;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #2c2c2c; /* Slightly lighter dark background */
+}
+
+    .about-section h2 {
+        color: #1e90ff; /* Vibrant cool blue for section titles */
+        font-size: 3rem; /* Larger section title */
+        margin-bottom: 25px;
+    }
+
+    .about-section p {
+        color: #fff; /* White for the text */
+        font-size: 1.6rem; /* Larger and more readable text */
+        line-height: 2;
+    }
+
+    /* Subheadings */
+    .about-section h3 {
+        color: #1e90ff; /* Cool blue for subheadings */
+        font-size: 2.2rem; /* Bigger subheadings */
+        margin-top: 30px;
+    }
+
+    .about-section ul {
+        font-size: 1.6rem; /* Larger list items */
+        color: #fff; /* White list items */
+        line-height: 1.8;
+    }
+
+    .about-section li {
+        margin-bottom: 15px; /* Space between list items */
+    }
+
+/* Team Section */
+.about-team-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.about-team-member {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+    .about-team-member img {
+        width: 100%;
+        border-radius: 50%;
+        max-width: 250px; /* Larger image size */
+        margin-bottom: 20px;
+        border: 5px solid #1e90ff; /* Cool blue border around the images */
+    }
+
+    .about-team-member h4 {
+        color: #1e90ff; /* Cool blue for names */
+        font-size: 2rem; /* Larger name font size */
+        margin-bottom: 15px;
+    }
+
+    .about-team-member p {
+        color: #00bfff; /* Bright cool blue for student IDs */
+        font-size: 1.5rem; /* Slightly larger font size */
+    }
+
+/* Privacy Policy Section */
+.about-section p {
+    color: #fff; /* White for the text */
+    font-size: 1.6rem; /* Larger text for better readability */
+    line-height: 2;
+}
+
+/* Styling for links (if any) */
+a {
+    color: #1e90ff; /* Cool blue for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+/*my topper for headings*/
+
+.about-header {
+    background-color: #5e2a84; /* Purple header */
+    padding: 80px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.about-head2 {
+    background: linear-gradient(-45deg, #4b2c62, #1e1b26, #2d2a38, #6a3d91);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    padding: 80px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px; /* Optional: add rounded corners */
+    height: auto; /* Make the height adjust automatically based on content */
+    width: 100%; /* Full width to match the container */
+}
+
+/* Define the animation */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* No Results Section */
+
+/* Global styles */
+resultBody {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fb;
+}
+
+resulth2 {
+    font-size: 2rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+resulta {
+    text-decoration: none;
+}
+
+/* Flight results section */
+.flight-results-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.flight-results-header-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.flight-results-header {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+}
+
+/* Flight table styles */
+.flight-results-table-container {
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.flight-results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    .flight-results-table th,
+    .flight-results-table td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .flight-results-table th {
+        background-color: #0056b3;
+        color: white;
+        font-weight: 600;
+    }
+
+    .flight-results-table tr:hover {
+        background-color: #f5f5f5;
+    }
+
+.flight-details {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Custom Button Style */
+/* Custom Button Style */
+.flight-book-button {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white; /* White text */
+    background-color: #007bff; /* Blue background */
+    border: 2px solid #007bff; /* Border matching the background */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Make the button clickable */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color transition */
+}
+
+    /* Hover state */
+    .flight-book-button:hover {
+        background-color: #0056b3; /* Darker blue for hover */
+        color: white; /* Text stays white on hover */
+        border-color: #0056b3; /* Border color changes with hover */
+    }
+
+    /* Active state (when clicked) */
+    .flight-book-button:active {
+        background-color: #003366; /* Even darker blue for active state */
+        border-color: #003366; /* Matching border for active state */
+    }
+
+    /* Focus state (for accessibility) */
+    .flight-book-button:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.6); /* Blue shadow to indicate focus */
+    }
+
+/* No results section */
+.no-results-container {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.no-results-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #e74c3c;
+}
+
+.no-results-message {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.no-results-suggestions {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.no-results-tips {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+    .no-results-tips li {
+        margin-bottom: 10px;
+    }
+
+        .no-results-tips li::before {
+            content: "✔️";
+            margin-right: 5px;
+        }
+
+.back-to-search-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+    .back-to-search-button:hover {
+        background-color: #0056b3;
+    }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .flight-results-table th, .flight-results-table td {
+        padding: 10px 12px;
+    }
+
+    .flight-results-header {
+        font-size: 1.8rem;
+    }
+
+    .flight-book-button, .back-to-search-button {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
+
+
+.flight-results-table td {
+    text-align: center; /* Centers the content inside the table cells */
+}
+
+.flight-arrow {
+    font-size: 24px; /* Adjust the size of the arrow */
+    color: #007bff; /* Set the color of the arrow (optional) */
+    font-weight: bold; /* Optionally make the arrow bold */
+    transform: scaleX(1.8); /* Elongate horizontally */
+}
+
+
+.booking-page .booking-container {
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+/* Header for the form */
+.booking-page h2 {
+    color: #333;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+.booking-page label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Styling for input fields */
+.booking-page input,
+.booking-page select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+.booking-page button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+    .booking-page button:hover {
+        background-color: #45a049;
+    }
+
+/* Add spacing between form sections */
+.booking-page .form-section {
+    margin-bottom: 40px;
+}
+
+.booking-page .input-group {
+    display: flex;
+    gap: 20px;
+}
+
+    .booking-page .input-group input {
+        flex: 1;
+    }
+
+/* Styling for the select dropdowns */
+.booking-page select {
+    background-color: #f9f9f9;
+    border-color: #bbb;
+}
+
+.booking-page select,
+.booking-page input[type="date"],
+.booking-page input[type="number"] {
+    font-size: 16px;
+}
+
+/*---------------------chat bot css--------------------- */
+
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.chatbot-header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.chatbot-header p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.chatbot-frame {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+}
+
+    .chatbot-frame iframe {
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+
+@media (max-width: 768px) {
+    .chatbot-frame {
+        width: 90%;
+        height: 400px;
+    }
+}
+
+
+
+
+
+#chatbot-button {
+    position: fixed; /* Ensure the button stays in the same position in the viewport */
+    bottom: 20px; /* Distance from the bottom of the viewport */
+    right: 20px; /* Distance from the right edge of the viewport */
+    width: 60px;
+    height: 60px;
+    background-color: #007bff; /* Button color */
+    color: #fff; /* Icon color */
+    border-radius: 50%; /* Make it circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000; /* Ensure it appears above other elements like footer */
+    transition: all 0.3s ease;
+    font-family: Arial, sans-serif;
+}
+
+    #chatbot-button:hover {
+        background-color: #0056b3; /* Darker shade on hover */
+        transform: scale(1.1); /* Slightly enlarge on hover */
+    }
+
+    #chatbot-button i {
+        font-size: 28px; /* Adjust icon size */
+        pointer-events: none; /* Prevent pointer events on the icon */
+    }
+
+.chatbot-label {
+    position: absolute;
+    bottom: 80px; /* Position above the button */
+    right: 50%;
+    transform: translateX(50%);
+    background-color: #0056b3; /* Background for the label */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    opacity: 0;
+    visibility: hidden;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#chatbot-button:hover .chatbot-label {
+    opacity: 1;
+    visibility: visible;
+}
