@@ -1,28 +1,106 @@
-# AirWizz-Fligth-System-ASP.NET-
-The ultimate flight management system website where you can manage flights bookings, track 100 real time flights , search flights , access admin panel to add new flight , update or delete flights and managing currency. Google Dialog Flow navigating chatbot is also used . You can also cancel your booking or download your booking ticket.
+# ✈️ AirWizz Flight System (ASP.NET)
+
+AirWizz is a comprehensive flight management system built using ASP.NET. It allows users to **search, book, track flights in real-time**, and manage bookings. Admins can manage flights, currencies, and user data. A DialogFlow-powered chatbot is also integrated for interactive navigation.
+
+---
+
+## 🌟 Features
+
+- 🔍 Search for available flights
+- 🎫 Book and cancel flights
+- 📥 Download your ticket as a PDF
+- ✈️ Track **100+ real-time flights** using AviationStack API
+- 🔐 Admin panel for:
+  - Adding, updating, and deleting flights
+  - Managing currency conversions
+- 🤖 Google Dialogflow-integrated chatbot for smooth user interaction
+
+---
+
+## 📁 Project Setup Instructions
+
+### 1. 🔧 Configure Database Connection
+
+Open Program.cs and appsettings.json , and **update the connection string** to match your local SQL Server setup:
+
+json
+"ConnectionStrings": {
+  "DefaultConnection": "Server=YOUR_SERVER_NAME;Database=AirWizzDB;Trusted_Connection=True;"
+}
 
 
-PROJECT INSTRUCTIONS :
 
-1- firstly go to the program.cs and appsettings.json to change your server connection string
+### 2. 🗄️ Setup the Database
+Open SQL Server Management Studio (SSMS) and create a new database (e.g., AirWizzDB).
 
+In Visual Studio, open Package Manager Console and run:
 
-2- then in sql server management studio create data base and in package manager console run the command Update-Database to get tables 
+Update-Database
 
-
-3- you can also use your aviation stack api key and change it in /services/FlightTrackingService
-
-
-4- for currencies you need to add them manually in database for the fisrt time and make sure to write each currency code in CurrencyConversions ENUM e.g PKR=3 , etc 
+This will create all the necessary tables based on Entity Framework migrations.
 
 
-5- for admin access goto user and add user with email : admin@airwizz.com    pass: 123
 
 
-6- once adding all currency now you can change values using admin panel
+### 3. 🌐 Configure Flight Tracking API
+   
+To enable real-time flight tracking, add your AviationStack API key in:
+/Services/FlightTrackingService.cs
+
+Replace the placeholder key with your own API key.
 
 
-7- if you want to add flights data admin can add it or you can just use sql insertion script without deleting query to add random flights data (also change the date accordingly to current month)
 
--------------Enjoy-------------
+### 4. 💱 Setup Currency Conversion
+
+Manually add currency data into the Currencies table (only once).
+
+Ensure all currency codes (e.g., PKR, USD, EUR) are defined in the CurrencyConversions ENUM:
+
+public enum CurrencyConversions
+{
+    USD = 1,
+    EUR = 2,
+    PKR = 3,
+    // Add others as needed
+}
+
+
+
+
+### 5. 🔐 Admin Access
+
+To access the admin dashboard:
+
+Go to the Users section in the database or app.
+
+Create a new user with the following credentials:
+
+Email: admin@airwizz.com
+Password: 123
+
+Assign admin privileges as needed.
+
+
+
+
+
+### 🧠 Technologies Used
+
+ASP.NET Core MVC
+
+Entity Framework Core
+
+SQL Server
+
+AviationStack API (for real-time flight tracking)
+
+Google DialogFlow (chatbot integration)
+
+Razor Pages & Bootstrap (for frontend)
+
+
+
+
+
 
